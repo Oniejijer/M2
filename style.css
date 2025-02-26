@@ -1,0 +1,82 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 15px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #252424; /* El color del fondo de la página web */
+    color: #ffffff; /* El color del texto*/ 
+    font-weight: 500;
+}
+
+h1 {
+    color: #D6FF6B; /* El color de la cabecera */
+    font-size: 40px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    font-weight: 500px;
+    animation: color-change 3s infinite;
+
+}
+
+p {
+    color: #e0e0e0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+div{
+    height: 60px;
+    background-color: #5988FF;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    font-size: 50px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+
+    border-radius: 4px;
+    padding: 5px;
+    animation: border-change 3s infinite;
+
+  }
+
+  @keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+@keyframes border-change {
+    0% {
+      border: 1px solid blue;
+    }
+  
+    50% {
+      border: 1px solid red;
+    }
+  
+    100% {
+      border: 1px solid blue;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 50%;
+    margin: 10px;
+}
